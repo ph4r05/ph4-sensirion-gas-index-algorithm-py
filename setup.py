@@ -10,9 +10,7 @@ dev_extras = [
     "pre-commit",
     "pytest",
     "types-PyYAML",
-    "nose",
     "pep8",
-    "tox",
     "pypandoc",
 ]
 
