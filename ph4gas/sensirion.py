@@ -196,6 +196,9 @@ class GasIndexAlgorithm:
                 self.mve_process(self.sraw)
                 self.mox_model_set_parameters(self.mve_get_std(), self.mve_get_mean())
 
+        return self.get_gas_index()
+
+    def get_gas_index(self):
         # Return the integer part of gas index by adding 0.5 for rounding
         return int(self.gas_index + 0.5)
 
